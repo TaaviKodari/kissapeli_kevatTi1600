@@ -35,7 +35,7 @@ function AloitaPeli()
 
 function draw(){
   image(taustakuva,0,0,taustan_leveys,taustan_korkeus);
-  Luo_lautta();
+    Luo_lautta();
 
   kissalista.forEach(function(kissa_olio,monesko) {
     kissa_olio.liikuta();
